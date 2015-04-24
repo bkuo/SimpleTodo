@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/pref_header_appearance"
+    android:summary="@string/appearance_features_summary"
+    >
+    <ListPreference android:title="Date Format"
+        android:key="date_format_key" android:summary=""
+        android:entryValues="@array/date_format_list"
+        android:entries="@array/date_format_list"
+        />
+    <CheckBoxPreference android:key="large_fonts_key"
+        android:defaultValue="false" android:enabled="true"
+
+        android:title="Large Fonts"/>
+</PreferenceScreen>
