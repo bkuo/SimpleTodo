@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="date_format_list">
+        <item>M/dd</item>
+        <item>dd/M</item>
+        <item>MMM dd</item>
+        <item>dd MMM</item>
+    </string-array>
+
+    <string name="pref_header_appearance">Appearance</string>
+    <string name="appearance_features_summary">Customize appearances, set colors, layouts, date formats, etc.</string>
+</resources>
